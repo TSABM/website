@@ -1,0 +1,74 @@
+*{
+}
+body{
+background: #808080;
+display: column;
+}
+main{
+	display:flex;
+	flex: 1 0;
+	flex-direction:row;
+	height:85vh;
+}
+.advert{
+	display: flex;
+	flex-direction:column;
+	height: 100%;
+	width:10%;	
+	align-items:stretch;
+	background-color:white;
+}
+.maincontent{
+	display: flex;
+	flex-direction: column;
+}
+
+.centered-text{
+margin:0vh 20vw 0vh;
+}
+
+.centerbox{
+flex: 1;
+align-items:bottom;
+}
+
+footer{
+	position: fixed;
+	width:100vw;	
+	bottom: 0;
+background: rgb(0,0,148);
+}
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.advert img{
+	width: 100%;
+}
+
+.image img {
+  width: 100%;
+}
+.reviewbox{
+	display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+	margin:5vw 20vw 0;
+}
+.review{
+	display:flex;
+
+}
+.review img{
+	width:100%;
+}
+.zuckerberg{
+width:50vw;
+height:90vh;
+margin: 1em 0 5em;
+}
